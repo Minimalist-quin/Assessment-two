@@ -950,3 +950,504 @@ body {
     font-size: 16px;
     color: #1e3549;
 }
+
+
+/* =================================
+   TABLET RESPONSIVENESS
+================================= */
+
+@media screen and (max-width: 1024px) {
+
+    /* NAVBAR */
+    .header-main {
+        padding: 8px 5%;
+    }
+
+    .header-main-links ul {
+        gap: 20px;
+    }
+
+    .header-main-btn {
+        gap: 15px;
+    }
+
+    #logo {
+        width: 130px;
+    }
+
+    /* HERO */
+    .main {
+        min-height: auto;
+        padding: 70px 5% 50px;
+    }
+
+    .center {
+        max-width: 850px;
+    }
+
+    .center h1 {
+        font-size: 42px;
+        line-height: 1.5;
+    }
+
+    /* STATS SECTION */
+    .stats-section {
+        padding: 55px 5%;
+        gap: 50px;
+    }
+
+    .statsdiv {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    /* WHY CHOOSE SCISSORS */
+    .stat-one {
+        padding: 80px 5%;
+    }
+
+    .stat-section-one {
+        grid-template-columns: 1fr 1.3fr;
+        gap: 45px;
+    }
+
+    .statdiv {
+        gap: 35px 25px;
+    }
+
+    .section-heading {
+        font-size: 32px;
+    }
+
+    /* PRICING */
+    .pricing-card {
+        padding: 80px 5%;
+    }
+
+    .pricing-grid > article.pricing-card {
+        padding: 30px 25px;
+    }
+
+    .pricing-grid > article:nth-child(2) {
+        padding: 65px 30px;
+    }
+
+    .card-price {
+        font-size: 27px;
+    }
+
+    .card-duration {
+        font-size: 19px;
+    }
+
+    .card-features {
+        gap: 20px;
+    }
+
+    /* FORM */
+    .form-section {
+        padding: 70px 5%;
+    }
+
+    /* FAQ */
+    .faq-section {
+        padding: 35px 5% 90px;
+    }
+
+    /* FOOTER */
+    .footer-section {
+        padding: 65px 5% 30px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 3fr;
+        column-gap: 40px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+
+/* =================================
+   MOBILE RESPONSIVENESS
+================================= */
+
+@media screen and (max-width: 767px) {
+
+    /* NAVBAR */
+    .header-main {
+        padding: 12px 5%;
+    }
+
+    .header-main-nav {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #logo {
+        width: 120px;
+    }
+
+    .header-main-links {
+        width: 100%;
+        order: 3;
+    }
+
+    .header-main-links ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .header-main-links a {
+        font-size: 13px;
+    }
+
+    .header-main-btn {
+        gap: 12px;
+    }
+
+    .header-main-btn a {
+        font-size: 13px;
+    }
+
+    .header-main-btn .signup {
+        padding: 8px 16px;
+    }
+
+    /* HERO SECTION */
+    .main {
+        min-height: auto;
+        padding: 65px 5% 45px;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    .center h1 {
+        font-size: 32px;
+        line-height: 1.4;
+        letter-spacing: -0.8px;
+        margin-bottom: 15px;
+    }
+
+    .center p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin: 20px auto;
+    }
+
+    .highlight img {
+        bottom: -8px;
+    }
+
+    .center .header-main-btn {
+        gap: 18px;
+        margin-top: 25px;
+    }
+
+    .center .header-main-btn a {
+        font-size: 14px;
+    }
+
+    .center .header-main-btn .signup {
+        padding: 11px 20px;
+    }
+
+    /* STATS SECTION */
+    .stats-section {
+        flex-direction: column;
+        padding: 45px 6%;
+        gap: 35px;
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .section-heading {
+        font-size: 29px;
+        line-height: 1.4;
+    }
+
+    .statsdiv {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+    }
+
+    .num {
+        font-size: 26px;
+    }
+
+    .type {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* WHY CHOOSE SCISSORS */
+    .stat-one {
+        padding: 65px 6%;
+    }
+
+    .stat-section-one {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .stat-section-one .heading p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .statdiv {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px 20px;
+    }
+
+    .statdiv img {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 18px;
+    }
+
+    .statdiv .heading {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .statdiv .type {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    /* PRICING SECTION */
+    .pricing-card {
+        padding: 65px 6%;
+    }
+
+    .pricing > .section-pricing {
+        font-size: 29px;
+        line-height: 1.4;
+    }
+
+    .pricing > .section-pricing::before {
+        left: 0;
+        transform: translateY(-50%);
+        width: 4px;
+        height: 35px;
+    }
+
+    .pricing > .heading {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 40px;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .pricing-grid > article.pricing-card {
+        min-height: auto;
+        padding: 35px 30px;
+        border-radius: 12px;
+    }
+
+    .pricing-grid > article:nth-child(2) {
+        min-height: auto;
+        padding: 40px 30px;
+        border-radius: 12px;
+    }
+
+    .card-price {
+        font-size: 30px;
+    }
+
+    .card-duration {
+        font-size: 20px;
+    }
+
+    .card-features {
+        gap: 20px;
+    }
+
+    .pricing-grid > .btn {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .secondary-btn,
+    .primary-btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* URL FORM */
+    .form-section {
+        padding: 60px 6%;
+    }
+
+    .url-form {
+        max-width: 100%;
+        padding: 28px 22px;
+        gap: 18px;
+    }
+
+    .url-form input,
+    .url-form select {
+        height: 52px;
+        font-size: 13px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .form-disclaimer {
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .trim-btn {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    /* FAQ SECTION */
+    .faq-section {
+        padding: 45px 6% 75px;
+    }
+
+    .faq-heading {
+        margin-bottom: 30px;
+    }
+
+    .faq-heading h2 {
+        font-size: 23px;
+    }
+
+    .faq-item {
+        padding: 18px 0 13px;
+    }
+
+    .faq-item summary {
+        font-size: 14px;
+        padding-right: 30px;
+    }
+
+    .faq-item p {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    /* CTA SECTION */
+    .cta-section {
+        min-height: 260px;
+        padding: 50px 6%;
+    }
+
+    .cta-content h2 {
+        font-size: 23px;
+        line-height: 1.4;
+        margin-bottom: 22px;
+    }
+
+    .cta-button {
+        min-width: 150px;
+    }
+
+    /* FOOTER */
+    .footer-section {
+        padding: 55px 6% 25px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-brand {
+        gap: 22px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+    }
+
+    .footer-column h4 {
+        font-size: 14px;
+    }
+
+    .footer-column a {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .social-links {
+        gap: 20px;
+    }
+
+    .footer-bottom {
+        grid-column: 1 / -1;
+        justify-content: flex-start;
+        margin-top: 0;
+    }
+
+    .footer-bottom p {
+        font-size: 13px;
+    }
+}
+
+
+/* =================================
+   SMALL MOBILE DEVICES
+================================= */
+
+@media screen and (max-width: 400px) {
+
+    .center h1 {
+        font-size: 27px;
+    }
+
+    .header-main-links ul {
+        gap: 10px;
+    }
+
+    .header-main-links a {
+        font-size: 12px;
+    }
+
+    .statsdiv {
+        gap: 25px 15px;
+    }
+
+    .statdiv {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading {
+        font-size: 26px;
+    }
+
+    .pricing > .section-pricing {
+        font-size: 25px;
+    }
+
+    .url-form {
+        padding: 24px 18px;
+    }
+
+    .footer-links {
+        gap: 25px 12px;
+    }
+}
